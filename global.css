@@ -1,0 +1,60 @@
+/*@font-face {
+
+
+
+  fon-family: 'meslo';
+
+  src: url('Meslo.ttf') format('truetype'),
+
+  
+} */
+
+@font-face {
+  font-family: 'Hubot Sans';
+  src:
+    url('~assets/fonts/Hubot-Sans.woff2') format('woff2 supports variations'),
+    url('~assets/fonts/Hubot-Sans.woff2') format('woff2-variations');
+  font-weight: 200 900;
+  font-stretch: 75% 125%;
+}
+/*
+:root {
+   /*(https://colorhunt.co/palette/404258474e6850577a6b728e*//*
+  --bg: #222831;
+  --bg2: #393E46;
+  --highlight: #FFD369;
+  --font: #EEEEEE;
+}
+*/
+
+/* ATOM */
+:root {
+
+  --bg : #282c34 ;
+  --bg2: #20252a ; 
+  --border : #191b1f;
+  --green : #98c378;
+  --yellow : #E5C07B;
+  --red :#E06C75;
+  --gray: #AAB2BF;
+
+  --pink: #C678DD;
+  --cyan: #56B6C2;
+  --blue: #61AFEF
+
+}
+
+
+body {
+
+
+  font-family: 'Hubot Sans';
+  color : var(--gray);
+
+
+  background-color: var(--bg);
+
+  
+
+}
+
