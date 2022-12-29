@@ -1,24 +1,24 @@
 <template>
 
-  <div>
+  <div class='nav-margin'>
 
 
 
 
-    <ul class="nav nav-tabs nav-fill">
+    <ul class="nav nav-tabs nav-fill fixed-top">
       <li class="nav-item">
-        <a v-bind:class=" {active: $route.path ===  '/'} " class="nav-link" href="/">Home</a>
+        <a v-bind:class=" {active: $route.path ===  '/'} " class="nav-link" href="/">index.html</a>
       </li>
       <li class="nav-item">
-        <a  v-bind:class="{active: $route.path === '/project'}" id="project" class="nav-link" href="/project">Project</a>
+        <a  v-bind:class="{active: $route.path === '/project'}" id="project" class="nav-link" href="/project">project.html</a>
       </li>
       <li class="nav-item">
-        <a v-bind:class="{active: $route.path === '/cv'}" class="nav-link " href="/cv">CV</a>
+        <a v-bind:class="{active: $route.path === '/cv'}" class="nav-link " href="/cv">cv.html</a>
       </li>
 
-      <li class="nav-item">
-        <a  v-bind:class="{active: $route.path === '/contact'}" class="nav-link" href="/contact">Contact</a>
-      </li>
+      <!---<li class="nav-item">
+        <a  v-bind:class="{active: $route.path === '/contact'}" class="nav-link" href="/contact">contact.html</a>
+      </li>--->
     </ul>
 
   </div>
@@ -40,6 +40,12 @@
 
 
 <style>
+
+.nav-margin{
+
+  margin-bottom : 130px;
+
+}
 
 .nav-tabs {
 

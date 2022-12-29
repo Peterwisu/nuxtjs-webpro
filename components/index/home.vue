@@ -1,18 +1,19 @@
 <template>
 
   <div>
-    <div class='container mt-5 '>
+    <div class='container '>
       
       
-      <div class='row'>
+      <div class='row mt-5 mx-5'>
 
         <div class='col-md-8'>
 
           
-        <p class='title'> Wish Suharitdamrong </p>     
+          <p class='title'> About Me </p>     
 
-
-          <h4> I am  a computer scientist specialized in the area of Artificial Intelligence (AI). My main interest in AI are <p class="highlight">Machine learning (Deep learning)</p>, <p class="highlight">Computer Vision</p> and <p class="highlight">Evolutionary Computation</p>.</h4>
+      
+          <h3>My name is <p class="highlight-red">Wish Suharitdamrong </p></h3>
+          <h4> I am  a computer scientist specialized in the area of Artificial Intelligence (AI). My main interests in AI are <p class="highlight-pink">Machine learning (Deep learning)</p>, <p class="highlight-pink">Computer Vision</p> and <p class="highlight-pink">Evolutionary Computation</p>.</h4>
 
           <p>I am  currently studying my final year undergradute in BSc computer science at University of Surrey.</p> 
 
@@ -72,10 +73,18 @@ border-radius:50%;
 
 }
 
-.highlight{
+.highlight-red{
 
   display : inline;
   color: var(--red)
+
+}
+
+
+.highlight-pink{
+
+  display : inline;
+  color: var(--pink)
 
 }
 

@@ -5,10 +5,13 @@
     <div class='container'>
 
       <div class="row justify-content-between mx-5 my-5">
+
+        
         <p class='title'>Curriculum vitae </p>
 
 
-        <a href="../cv.pdf">Download CV</a>
+        <a href="~/assets/files/cv.pdf" download='cv.pdf'>Download CV</a>
+        
 
 
       </div>
@@ -109,11 +112,11 @@
           <div class='row justify-content-center'>
             <div class="col-md-6">
               
-             <p class='year'>2020-Present</p>
+             <p class='year'>June - August 2022</p>
             </div>
             <div class="col-md-6">
-              <h5>Primary School</h5>
-              <p>Saint Garbriel College, Bangkok, Thailand</p>
+              <h5>Research Assistance</h5>
+              <p>University of Surrey, Guildford, United Kingdom</p>
             </div>
           </div>
     
@@ -266,13 +269,13 @@ export default {
 
 .card-header{
 
-  background-color: var(--bg);
+  background-color: var(--hover);
   color : var(--red);
 }
 
 .card-body{
 
-  background-color : var(--bg);
+  background-color : var(--hover);
 }
 
 div.col-md-6 h3, div.col-md-6 h5{
