@@ -1,10 +1,11 @@
 
 <template>
   <div>
-  <navbar/>
-  <h1 class = "red" > Project page </h1> 
+  <PartialNavbar/>
 
-  <foot/>
+  <Project/>
+
+  <PartialFoot/>
 
   </div>
 

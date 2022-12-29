@@ -1,11 +1,12 @@
 <template>
 
   <div>
-    <navbar/>
+    <PartialNavbar/>
 
-    <home/>
+    <IndexHome/>
+    <IndexContact/>
 
-    <foot/>
+    <PartialFoot/>
   </div>
 
   

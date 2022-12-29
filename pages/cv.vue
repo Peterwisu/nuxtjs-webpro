@@ -1,13 +1,13 @@
 <template>
   <div>
 
-    <navbar/>
+    <PartialNavbar/>
 
 
     <cv/>
 
 
-    <foot/>
+    <PartialFoot/>
 
   </div>
 

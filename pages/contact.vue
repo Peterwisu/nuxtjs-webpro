@@ -2,7 +2,7 @@
 
   <div>
   <navbar/>
-
+    <contact/>
     <foot/>
   </div>
 </template>
@@ -13,13 +13,7 @@
 <script>
 
 
-export default {
 
-
-  name : "contact",
-
-
-}
 </script>
 
 
