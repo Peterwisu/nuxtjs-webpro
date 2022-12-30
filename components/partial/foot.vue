@@ -1,8 +1,4 @@
 <template>
-
-
-
-
   <div> 
     <br>
     <br>
@@ -12,7 +8,6 @@
     <br>
     <br>
     <br>
-
     <br> 
     <footer class="fixed-bottom">
 
@@ -20,11 +15,11 @@
 
         <div class="row justify-content-between">
 
-          <div class='col-7'>
+          <div class='col-6'>
             <p class='footer'>{{fileName()}}</p>
           </div>
 
-          <div class='col-5'>
+          <div class='col-6'>
 
 
             <div class='row justify-content-end'>
@@ -45,7 +40,7 @@
 
                 <a href="https://github.com/Peterwisu"class='footer'>
                   <img class="img-fluid icon" src="~/assets/icons/github-mark-white.svg" /> 
-                  Gtihub
+                  gtihub
                 </a>
 
               </div>
@@ -59,9 +54,15 @@
                 </a>
 
               </div>
+
+
               <div class='col d-flex justify-content-end'>
 
-                <p class='footer'>index.html</p>
+                <p href="https://www.linkedin.com/in/wish-suharitdamrong-534948229/"class='footer'>
+                  <img class="img-fluid icon" src="~/assets/img/branch.png" /> 
+                  master
+                </p>
+
               </div>
 
             </div>
@@ -77,19 +78,11 @@
 
 <script>
 
-import githubicon from "~/assets/icons/github-mark-white.svg"
 
 export default{
 
   name : 'foot',
 
-  data(){
-
-    return {
-
-      githubicon
-    } 
-  },
 
   data() {
     return{

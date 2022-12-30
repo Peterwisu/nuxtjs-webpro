@@ -6,12 +6,14 @@
 
       <div class='row mx-5 my-5'>
 
-        <div class='col-12 my-5'>
+        <div class='col-12'>
           <p class='title'>My Project</p>
         </div> 
 
         <div class='col-12 my-5'>
           <h3 class="section">University Assignments</h3>
+
+          <list/> 
 
 
         </div>
@@ -41,9 +43,17 @@
 <script>
 
 
+import list from './list.vue'
+
 export default{
 
-   name : "project"
+  name : "index",
+
+  components : {
+
+    list
+  }
+   
 
 
 }
