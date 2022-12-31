@@ -60,7 +60,7 @@ export default{
 
 .type{
   
-    color : var(--pink);
+  
     font-weight :  bold;
 }
 

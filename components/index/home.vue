@@ -13,7 +13,7 @@
 
       
           <h3>My name is <p class="highlight-red">Wish Suharitdamrong </p></h3>
-          <h4> I am  a computer scientist specialized in the area of Artificial Intelligence (AI). My main interests in AI are <p class="highlight-pink">Machine learning (Deep learning)</p>, <p class="highlight-pink">Computer Vision</p> and <p class="highlight-pink">Evolutionary Computation</p>.</h4>
+          <h4> I am  a computer scientist specialized in the area of Artificial Intelligence (AI). My main interests in AI are Machine learning (Deep learning), Computer Vision and Evolutionary Computation.</h4>
 
           <p>I am  currently studying my final year undergradute in BSc computer science at University of Surrey.</p> 
 
