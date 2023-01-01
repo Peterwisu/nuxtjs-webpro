@@ -4,7 +4,6 @@
       <div class="row">
       
         
-        {{visible}}
         <div v-for="item in items" class='col-md-4'> 
           <b-card
             v-bind:title="item.name"
@@ -16,15 +15,15 @@
             body-class="card-body"
             style="max-width: 20rem; border-color : var(--border); border-width: 2px ;background-color : var(--hover);"
             class="mb-2">
-            <b-card-text>
-              <p class="content">{{item.content}}</p>
-            </b-card-text>
-            <b-button size='sm'v-bind:href="item.link.github" active-class="card-body" variant="primary">
+
+            <p class="content">{{item.content}}</p>
+            <b-button size='sm' v-if="item.link.github !== null"v-bind:href="item.link.github" active-class="card-body" variant="primary">
               <img class="img-fluid icon" src="~/assets/icons/github-mark-white.svg" /> 
-              gtihub
+              github
             </b-button>
           </b-card>
         </div>
+        
 
       </div>
     </div>
@@ -40,25 +39,8 @@ export default{
 
     items :  Array ,
 
-  },
-
-  data() {
-    
-    return {
-    buttonText : 'Show more',
-    }
-  },
-
-  methods : {
-
-    showMore:()=>{
-        
-      console.log('asdasd')
-
-    }
-
-
   }
+
 
 
 }

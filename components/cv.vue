@@ -10,8 +10,8 @@
         <p class='title'>Curriculum vitae </p>
 
 
-        <a href="~/assets/files/cv.pdf" download='cv.pdf'>Download CV</a>
-        
+        <a href="/cv.pdf" >Open PDF</a>
+
 
 
       </div>

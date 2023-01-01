@@ -16,9 +16,9 @@
             <p class=""><b>University Email:</b>   ws00372@surrey.ac.uk</p>
           </div>
           <div class='col-md-6'>
-            <h5 class="type"> Social Media</h5>
+            <h5 class="type"> Social Media & Others</h5>
             <p class=""><b>Linkedin :</b>   Wish Suharitdamrong</p>
-            <p class=""><b>Instagram:</b>   Mysoulmywish</p>
+            <p class=""><b>Github :</b>   Peterwisu</p>
           </div>
         </div>
       </div>

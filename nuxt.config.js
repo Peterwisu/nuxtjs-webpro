@@ -37,10 +37,32 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/bootstrap
     'bootstrap-vue/nuxt',
-    '@nuxtjs/svg'
+    // display svg as image
+    '@nuxtjs/svg',
+    // reverse proxy for Gradio interface 
+    '@nuxtjs/proxy',
+    //'@nuxtjs/axios'
   ],
+  
 
+  proxy : {
 
+    '/gradio' :{
+
+      target :'http://127.0.0.1:8000/',
+
+      changeOrigin: false
+
+      
+    },
+   // '/' : {
+
+   //   target : "https://huggingface.co",
+
+   //   changeOrigin: true
+   // }
+
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {

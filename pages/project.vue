@@ -5,18 +5,20 @@
 
   <Project/>
 
+
   <PartialFoot/>
+
 
   </div>
 
 </template>
 
 
-<scripts>
+<script>
 
 
 
-</scripts>
+</script>
 
 
 <style>

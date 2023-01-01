@@ -1,0 +1,107 @@
+
+export default   {
+   "data":[
+      {
+         "university":"Surrey",
+         "id":1,
+         "name":"OOP in Java",
+         "content":"This is an assingment for COM1027 Fundamental Programming",
+         "link":{
+            "github":"https://github.com/Peterwisu/COM1027-Assignment"
+         }
+      },
+      {
+         "university":"Surrey",
+         "id":2,
+         "name":"Web & Database in PHP and MySQL",
+         "content":"This is an assingment for COM1025 Web and Data ",
+         "link":{
+            "github":"https://github.com/Peterwisu/COM1025-Assignment"
+         }
+      },
+      {
+         "university":"Surrey",
+         "id":3,
+         "name":"SE in Java",
+         "content":"This is an assingment for COM1028",
+         "link":{
+            "github":"https://github.com/Peterwisu/COM1028-Assignment"
+         }
+      },
+      {
+         "university":"Surrey",
+         "id":4,
+         "name":"CUDA Programming in C/C++",
+         "content":"This is an assingment for COM2039",
+         "link":{
+            "github":"https://github.com/Peterwisu/COM2039-Assignment"
+         }
+      },
+      {
+         "university":"Surrey",
+         "id":5,
+         "name":"Hangman game in ARM assembly",
+         "content":"This is an assingment for COM1031",
+         "link":{
+            "github":"https://github.com/Peterwisu/COM1031-CW-Hangman-ARM-Assembly"
+         }
+      },
+      {
+         "university":"Surrey",
+         "id":6,
+         "name":"Web application in Ruby",
+         "content":"This is an assingment for COM2025",
+         "link":{
+            "github":"https://github.com/Peterwisu/COM2025-Assignment-Coursework"
+         }
+      },
+      {
+         "university":"Surrey",
+         "id":7,
+         "name":"Real-time video transfer protocol",
+         "content":"This is an assingment for COM2022",
+         "link":{
+            "github":"https://github.com/Peterwisu/COM2022_Assignment_extension"
+         }
+      },
+      {
+         "university":"Surrey",
+         "id":8,
+         "name":"Bussiness Analytics using R",
+         "content":"This is an assingment for COM3018",
+         "link":{
+            "github":"https://github.com/Peterwisu/COM3018-Assignment-PBA"
+         }
+      },
+      {
+         "university":"Surrey",
+         "id":9,
+         "name":"Cells classification",
+         "content":"This is an assingment for COM2028",
+         "link":{
+            "github":"https://github.com/Peterwisu/COM2028-Assignment-AI"
+         }
+      },
+      {
+         "university":"Surrey",
+         "id":10,
+         "name":"Evolutionary Compuation for Image classification",
+         "content":"This is an assingment for COM3031",
+         "link":{
+            "github":"https://github.com/Peterwisu/COM3031-CI"
+         }
+      },{
+      	 "university":"Surrey",
+         "id":11,
+         "name":"Fitmate web application",
+         "content":"This is an assingment for COM2027, group project for creating web application",
+         "link":{
+            "github":"https://github.com/Peterwisu/COM3031-CI"
+         }
+      
+      }
+   ]
+}
+
+
+
