@@ -1,4 +1,14 @@
 export default {
+
+//  mode : 'static',
+
+  target : 'static',
+
+  router : {
+    base : '/'
+  },
+
+  ssr : 'false',
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Wish',
@@ -47,15 +57,15 @@ export default {
 
   proxy : {
 
-    '/gradio' :{
-
-      target :'http://127.0.0.1:8000/',
-
-      changeOrigin: false
-
-      
-    },
-   // '/' : {
+//    '/gradio' :{
+//
+//      target :'http://127.0.0.1:8000/',
+//
+//      changeOrigin: false
+//
+//      
+//    },
+//   // '/' : {
 
    //   target : "https://huggingface.co",
 
